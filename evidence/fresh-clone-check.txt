@@ -1,0 +1,30 @@
+✔ local configuration persists privately, overrides environment and never returns the key (14.979334ms)
+✔ quoted headers, BOM, CRLF and mV normalization preserve all observations (0.59225ms)
+✔ a single outlier fails even when the average meets the target (0.076875ms)
+✔ missing tolerances cannot produce a pass (0.122334ms)
+✔ invalid, missing, duplicate time and ragged data fail closed (0.1825ms)
+✔ negative tolerance and unsupported units rejected (0.07625ms)
+✔ import shape and XML injection defenses (1.110416ms)
+✔ local env overrides parent; parent works from fresh clone (5.111334ms)
+✔ no-key and cross-origin requests never invoke model (1.688833ms)
+✔ course model is fixed and usage/citations are returned from real provider shape (0.729792ms)
+✔ module drafts reject invalid component fields and never produce measurements (0.509083ms)
+✔ live connection uses provider output and reports actual identity, usage and failures (11.918042ms)
+✔ module endpoint refuses empty analysis and rejects truncated drafts (0.738958ms)
+✔ draft extracts supported facts but saves nothing and marks every row pending (3.081667ms)
+✔ missing parameters cannot be filled with invented numeric values (0.194625ms)
+✔ unsupported source claims and suggested numeric limits are rejected (0.096375ms)
+✔ duplicate names and malformed questions fail closed (0.088166ms)
+✔ project backup validates draft rows without changing approved requirements (0.220375ms)
+✔ requirements endpoint validates JSON, forces course model, reports usage and rejects truncation (10.478584ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.954167
+Built self-contained Worker and browser assets.
+
+Fresh local Git clone: tests and build passed. Server started with the key only in the parent directory. Status: configured Portkey / gpt-6-luna. Home page HTTP 200. Direct .env access HTTP 404. No model call was made during this startup check.

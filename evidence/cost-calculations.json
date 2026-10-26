@@ -1,0 +1,50 @@
+{
+  "currency": "USD",
+  "price_date": "2026-10-26",
+  "basis": "OpenAI short-context Standard retail equivalent, not a Portkey invoice",
+  "rates_per_million": {
+    "input": 0.1,
+    "cached": 0.01,
+    "cache_write": 0.125,
+    "output": 0.5
+  },
+  "search_per_call": 0.01,
+  "per_run": [
+    {
+      "label": "Requirements",
+      "estimated_cost": 0.0001878
+    },
+    {
+      "label": "Architecture",
+      "estimated_cost": 0.0002653
+    },
+    {
+      "label": "Test plan",
+      "estimated_cost": 0.0002425
+    },
+    {
+      "label": "Analysis: summary only",
+      "estimated_cost": 0.0002593
+    },
+    {
+      "label": "Analysis: raw-data comparison",
+      "estimated_cost": 0.000930175
+    },
+    {
+      "label": "Manufacturer research",
+      "estimated_cost": 0.011141575
+    },
+    {
+      "label": "Injection probe",
+      "estimated_cost": 0.00018660000000000004
+    },
+    {
+      "label": "Architecture: explicit format retry",
+      "estimated_cost": 0.0002181
+    }
+  ],
+  "four_call_workflow": 0.0009077,
+  "monthly_per_user_20_workflows_4_search_calls": 0.0627203,
+  "input_reduction_percent": 85.29910903691132,
+  "paired_cost_reduction_percent": 72.12352514311823
+}

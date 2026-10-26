@@ -1,0 +1,27 @@
+✔ local configuration persists privately, overrides environment and never returns the key (14.277417ms)
+✔ quoted headers, BOM, CRLF and mV normalization preserve all observations (0.511209ms)
+✔ a single outlier fails even when the average meets the target (0.065666ms)
+✔ missing tolerances cannot produce a pass (0.04875ms)
+✔ invalid, missing, duplicate time and ragged data fail closed (0.138458ms)
+✔ negative tolerance and unsupported units rejected (0.063083ms)
+✔ import shape and XML injection defenses (1.001667ms)
+✔ local env overrides parent; parent works from fresh clone (4.944833ms)
+✔ no-key and cross-origin requests never invoke model (1.791167ms)
+✔ course model is fixed and usage/citations are returned from real provider shape (0.795584ms)
+✔ module drafts reject invalid component fields and never produce measurements (0.561166ms)
+✔ live connection uses provider output and reports actual identity, usage and failures (12.078958ms)
+✔ module endpoint refuses empty analysis and rejects truncated drafts (0.674083ms)
+✔ draft extracts supported facts but saves nothing and marks every row pending (3.275666ms)
+✔ missing parameters cannot be filled with invented numeric values (0.191666ms)
+✔ unsupported source claims and suggested numeric limits are rejected (0.09375ms)
+✔ duplicate names and malformed questions fail closed (0.086958ms)
+✔ project backup validates draft rows without changing approved requirements (0.222625ms)
+✔ requirements endpoint validates JSON, forces course model, reports usage and rejects truncation (10.117542ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.307584
